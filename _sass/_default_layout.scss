@@ -1,0 +1,88 @@
+.bordered {
+  border: 1px solid black;
+}
+
+/**
+ * Site header
+ */
+header {
+  height: 50px;
+  width: 85%;
+  position: absolute;
+  right: 0;
+  
+  @media screen and (max-width: $low-resolution-width) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: $high-resolution-device) {
+    width: 100%;
+  }
+}
+
+.sidebar {
+  height: 100%;
+  width: 14.85%;
+  position: absolute;
+  bottom: 0;
+
+  @media screen and (max-width: $low-resolution-width) {
+    width: 19.8%;
+  }
+
+  @media screen and (max-width: $med-resolution-device) {
+    display: none;
+    position: fixed;
+    width: 38%;
+  }
+  
+  @media screen and (max-width: $low-resolution-device) {
+    width: 50%;
+  }
+}
+
+.content {
+  @include calc(height, "100% - 50px;");
+  width: 85%;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+
+  @media screen and (max-width: $low-resolution-width) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: $high-resolution-device) {
+    width: 100%;
+  }
+}
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+}
