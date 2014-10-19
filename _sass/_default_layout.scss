@@ -69,6 +69,7 @@ header {
    * Responsive section
    */
   @media screen and (max-width: $low-resolution-width) {
+    height: auto;
     width: 20%;
   }
 
@@ -158,13 +159,13 @@ header {
   /**
    * Colour Scheme
    */
-  background-color: #bbb;
   color: #111;
 
   /**
    * Responsive section
    */
-  @media screen and (max-width: $low-resolution-width) {
+  @media screen and (max-width: $low-resolution-width) {´
+    height: auto;
     width: 80%;
   }
 
