@@ -1,6 +1,6 @@
 <div class="sidebar">
   <div id="photo" class="sidebar-content bordered">
-    <img src="/assets/nelspike.jpg" />
+    <img src="/assets/images/nelspike.jpg" />
   </div>
   <div id="self-description" class="sidebar-content sidebar-text bordered">
     Lorem ispum cenas, because I really don't know what to put here to test.
@@ -13,19 +13,19 @@
   <div id="external-section" class="sidebar-content sidebar-text bordered">
 
     <div id="social-media">
-      <div id="github" class="social-container">
+      <div id="github" class="social-container" data-name="{{ site.github_username }}">
         <a href="https://github.com/{{ site.github_username }}">
-          <img src="/assets/github.png" />
+          <img src="/assets/images/github.png" />
         </a>
       </div>
-      <div id="twitter" class="social-container">
+      <div id="twitter" class="social-container" data-name="{{ site.twitter_username }}">
         <a href="https://twitter.com/{{ site.twitter_username }}">
-          <img src="/assets/twitter.png" />
+          <img src="/assets/images/twitter.png" />
         </a>
       </div>
-      <div id="gmail" class="social-container">
+      <div id="gmail" class="social-container" data-name="{{ site.email }}">
         <a href="mailto:{{ site.email }}">
-          <img src="/assets/mail.png" />
+          <img src="/assets/images/mail.png" />
         </a>
       </div>
     </div>
