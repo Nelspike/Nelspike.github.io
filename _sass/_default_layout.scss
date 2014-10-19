@@ -10,6 +10,7 @@ header {
   width: 85%;
   position: absolute;
   right: 0;
+  background-color: #336699;
   
   @media screen and (max-width: $low-resolution-width) {
     width: 80%;
@@ -22,9 +23,10 @@ header {
 
 .sidebar {
   height: 100%;
-  width: 14.85%;
+  width: 15%;
   position: absolute;
   bottom: 0;
+  background-color: #336699;
 
   @media screen and (max-width: $low-resolution-width) {
     width: 19.8%;
@@ -48,6 +50,7 @@ header {
   right: 0;
   top: 50px;
   bottom: 0;
+  background-color: #aaa;
 
   @media screen and (max-width: $low-resolution-width) {
     width: 80%;
