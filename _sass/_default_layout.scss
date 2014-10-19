@@ -23,7 +23,7 @@ header {
   /**
    * Colour Scheme
    */
-  background-color: #336699;
+  background-color: #4477AA;
   color: #ddd;
   
   /**
@@ -42,10 +42,6 @@ header {
     margin-left: 20px;
     font-size: 20px;
     font-weight: 500;
-
-    @media screen and (max-width: $high-resolution-device) {
-      font-size: 14px;
-    }
 
     .category {
       display: inline-block;
@@ -77,7 +73,7 @@ header {
   /**
    * Colour Scheme
    */
-  background-color: #336699;
+  background-color: #225485;
   color: #ddd;
 
   /**
@@ -85,7 +81,6 @@ header {
    */
   @media screen and (max-width: $high-resolution-width) {
     height: auto;
-     
   }
 
   @media screen and (max-width: $low-resolution-width) {
@@ -120,6 +115,10 @@ header {
   #photo {
     margin-top: 20px;
     margin-left: 10%;
+    
+    img {
+      border-radius: 100px;
+    }
   }
 
   #self-description {
@@ -193,13 +192,14 @@ header {
    */
 
   #content-wrapper {
-    padding: 50px;
+    padding: 0px 50px 0px 50px;
 
     .post {
+      margin-top: 50px;
 
       .post-title {
         font-weight: 400;
-        font-size: 36px;
+        font-size: 32px;
       }
 
       .post-date {
@@ -209,8 +209,21 @@ header {
       }
 
       .post-truncate {
-        line-height: 35px;
+        width: 75%;
+        padding-bottom: 15px;
+        text-align: justify;
+        line-height: 25px;
         font-size: 18px;
+        border-bottom: 1px solid #ccc;
+
+        @media screen and (max-width: $high-resolution-device) {
+          width: 100%;
+        }
+
+        .read-more {
+          font-size: 16px;
+          text-align: right;
+        }
       }
     }
   }

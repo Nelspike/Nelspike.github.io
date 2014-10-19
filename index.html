@@ -12,10 +12,13 @@ layout: default
         <div class="post-date">{{ post.date | date: "posted in %b %-d, %Y" }}</diV>
         <div class="post-truncate">
           {{ post.excerpt }}
+          <div class="read-more">
+            <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+          </div>
         </div>
       </div>
     {% endfor %}
   </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 </div>
