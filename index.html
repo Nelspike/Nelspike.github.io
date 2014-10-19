@@ -1,27 +1,21 @@
 ---
 layout: default
 ---
+<div id="content-wrapper">
 
-<div class="home">
+  <div id="post-list">
+    {% for post in site.posts %}
+      <div class="post">
+        <h2 class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <div class="post-date">{{ post.date | date: "posted in %b %-d, %Y" }}</diV>
+        <div class="post-truncate">
+          {{ post.excerpt }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 
-  <!--
-    <h1 class="page-heading">Posts</h1>
-
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
-      {% endfor %}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  -->
-
-  The content
-
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>

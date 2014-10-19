@@ -192,6 +192,29 @@ header {
    * Child Node Styling
    */
 
+  #content-wrapper {
+    padding: 50px;
+
+    .post {
+
+      .post-title {
+        font-weight: 400;
+        font-size: 36px;
+      }
+
+      .post-date {
+        margin-bottom: 25px;
+        font-size: 14px;
+        color: #555;
+      }
+
+      .post-truncate {
+        line-height: 35px;
+        font-size: 18px;
+      }
+    }
+  }
+
 }
 
 /**
