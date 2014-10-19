@@ -8,6 +8,14 @@
     {% endfor %}
   -->
 
-  The header
+  <div id="category-listing">
+    {% for category in site.categories %}
+      <div class="category">
+        {{ category | first | capitalize }}
+        {{ category | last | size }}
+        <i class="fa fa-caret-down"></i>
+      </div>
+    {% endfor %}
+  </div>
 
 </header>

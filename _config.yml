@@ -10,7 +10,6 @@ url: "http://nelspike.github.io" # the base hostname & protocol for your site
 facebook_username: NelspikeTX
 twitter_username: nelspiketx
 github_username:  Nelspike
-email: nelspiketx@gmail.com
 
 # Build settings
 markdown: kramdown
