@@ -47,9 +47,9 @@ header {
     font-weight: 500;
 
     .category {
-      .fa {
-        margin-left: 5px;
-      }
+      display: inline-block;
+      margin-right: 25px;
+      font-weight: 200;
     }
     
   }
