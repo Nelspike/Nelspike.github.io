@@ -11,7 +11,8 @@ header {
    * Dimensions
    */
   height: 50px;
-  width: 85%;
+  @include calc(width, "100% - 250px");
+  //width: 85%;
 
   /**
    * Positioning
@@ -28,10 +29,6 @@ header {
   /**
    * Responsive section
    */
-  @media screen and (max-width: $low-resolution-width) {
-    width: 80%;
-  }
-
   @media screen and (max-width: $high-resolution-device) {
     width: 100%;
   }
@@ -45,6 +42,10 @@ header {
     margin-left: 20px;
     font-size: 20px;
     font-weight: 500;
+
+    @media screen and (max-width: $high-resolution-device) {
+      font-size: 14px;
+    }
 
     .category {
       display: inline-block;
@@ -65,7 +66,7 @@ header {
    * Dimensions
    */
   height: 100%;
-  width: 15%;
+  width: 250px;
 
   /**
    * Positioning
@@ -82,9 +83,13 @@ header {
   /**
    * Responsive section
    */
-  @media screen and (max-width: $low-resolution-width) {
+  @media screen and (max-width: $high-resolution-width) {
     height: auto;
-    width: 20%;
+     
+  }
+
+  @media screen and (max-width: $low-resolution-width) {
+    height: 100%;
   }
 
   @media screen and (max-width: $high-resolution-device) {
@@ -160,7 +165,8 @@ header {
    * Dimensions
    */
   @include calc(height, "100% - 50px");
-  width: 85%;
+  @include calc(width, "100% - 250px");
+  //width: 85%;
 
   /**
    * Positioning
@@ -178,11 +184,6 @@ header {
   /**
    * Responsive section
    */
-  @media screen and (max-width: $low-resolution-width) {
-    height: auto;
-    width: 80%;
-  }
-
   @media screen and (max-width: $high-resolution-device) {
     width: 100%;
   }

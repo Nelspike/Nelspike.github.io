@@ -21,7 +21,8 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$low-resolution-width: 1366px;
+$high-resolution-width: 1366px;
+$low-resolution-width: 1280px;
 $high-resolution-device: 768px;
 $med-resolution-device: 480px;
 $low-resolution-device: 320px;
