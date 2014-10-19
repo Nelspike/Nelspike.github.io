@@ -6,13 +6,28 @@
  * Site header
  */
 header {
+
+  /**
+   * Dimensions
+   */
   height: 50px;
   width: 85%;
+
+  /**
+   * Positioning
+   */
   position: absolute;
   right: 0;
+
+  /**
+   * Colour Scheme
+   */
   background-color: #336699;
   color: #ddd;
   
+  /**
+   * Responsive section
+   */
   @media screen and (max-width: $low-resolution-width) {
     width: 80%;
   }
@@ -20,16 +35,38 @@ header {
   @media screen and (max-width: $high-resolution-device) {
     width: 100%;
   }
+
+  /**
+   * Child Nodes Styling
+   */
 }
 
+/**
+ * Sidebar Section
+ */
 .sidebar {
+
+  /**
+   * Dimensions
+   */
   height: 100%;
   width: 15%;
+
+  /**
+   * Positioning
+   */
   position: absolute;
   bottom: 0;
+
+  /**
+   * Colour Scheme
+   */
   background-color: #336699;
   color: #ddd;
 
+  /**
+   * Responsive section
+   */
   @media screen and (max-width: $low-resolution-width) {
     width: 19.8%;
   }
@@ -43,18 +80,41 @@ header {
   @media screen and (max-width: $low-resolution-device) {
     width: 50%;
   }
+
+
+  /**
+   * Child Nodes Styling
+   */
 }
 
+/**
+ * Content section
+ */
 .content {
+
+  /**
+   * Dimensions
+   */
   @include calc(height, "100% - 50px;");
   width: 85%;
+
+  /**
+   * Positioning
+   */
   position: absolute;
   right: 0;
   top: 50px;
   bottom: 0;
+
+  /**
+   * Colour Scheme
+   */
   background-color: #bbb;
   color: #111;
 
+  /**
+   * Responsive section
+   */
   @media screen and (max-width: $low-resolution-width) {
     width: 80%;
   }
@@ -62,6 +122,11 @@ header {
   @media screen and (max-width: $high-resolution-device) {
     width: 100%;
   }
+  
+  /**
+   * Child Node Styling
+   */
+
 }
 
 /**
