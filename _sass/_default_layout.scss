@@ -51,6 +51,19 @@ header {
     
   }
 
+  a {
+    color: #eee;
+  }
+
+  a:visited {
+    color: #eee;
+  }
+
+  a:hover {
+    color: #bbb;
+    text-decoration: none;
+  }
+
 }
 
 /**
