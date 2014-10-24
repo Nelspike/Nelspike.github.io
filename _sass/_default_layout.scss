@@ -278,11 +278,23 @@ header {
     }
   }
 
-  .post-date {
-  }
-
   .post-content {
     width: 80%;
     line-height: 2em;
+  }
+
+  .post-meta {
+    
+    .post-author {
+      display: inline-block;
+    }
+
+    .post-date {
+      display: inline-block;
+    }
+
+    .post-category {
+      display: inline-block;
+    }
   }
 }
