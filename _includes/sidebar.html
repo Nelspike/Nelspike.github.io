@@ -13,25 +13,31 @@
   <div id="external-section" class="sidebar-content sidebar-text bordered">
 
     <div id="social-media">
-      <div id="github" class="social-container" data-name="{{ site.github_username }}">
-        <a href="https://github.com/{{ site.github_username }}">
-          <img src="/assets/images/github.png" />
+      <div class="social-container">
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">
+          <i class="fa fa-github"></i>
         </a>
       </div>
-      <div id="twitter" class="social-container" data-name="{{ site.twitter_username }}">
-        <a href="https://twitter.com/{{ site.twitter_username }}">
-          <img src="/assets/images/twitter.png" />
+      <div class="social-container">
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+          <i class="fa fa-twitter"></i>
         </a>
       </div>
-      <div id="gmail" class="social-container" data-name="{{ site.email }}">
-        <a href="mailto:{{ site.email }}">
-          <img src="/assets/images/mail.png" />
+      <div class="social-container">
+        <a href="mailto:{{ site.email }}" target="_blank">
+          <i class="fa fa-envelope"></i>
         </a>
       </div>
-    </div>
-
-    <div id="social-media-name">
-      GitHub
+      <div class="social-container">
+        <a href="http://stackoverflow.com/users/1003007/nelspike" target="_blank">
+          <i class="fa fa-stack-overflow"></i>
+        </a>
+      </div>
+      <div class="social-container">
+        <a href="{{ site.baseurl }}/feed" target="_blank">
+          <i class="fa fa-rss"></i>
+        </a>
+      </div>
     </div>
 
   </div>

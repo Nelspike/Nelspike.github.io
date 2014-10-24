@@ -51,6 +51,10 @@ header {
     
   }
 
+  /**
+   * Link Styling
+   */
+
   a {
     color: #eee;
   }
@@ -63,7 +67,6 @@ header {
     color: #bbb;
     text-decoration: none;
   }
-
 }
 
 /**
@@ -110,7 +113,6 @@ header {
     width: 50%;
   }
 
-
   /**
    * Child Nodes Styling
    */
@@ -152,20 +154,31 @@ header {
 
       .social-container {
         width: 50px;
+        font-size: 35px;
         margin-left: 5px;
         margin-right: 5px;
         display: inline-block;
       }
     }
-
-    #social-media-name {
-      text-align: center;
-      padding: 10px;
-      margin-top: 15px;
-      font-size: 18px;
-      font-weight: 400;
-    }
   }
+
+  /**
+   * Link Styling
+   */
+
+  a {
+    color: #eee;
+  }
+
+  a:visited {
+    color: #eee;
+  }
+
+  a:hover {
+    color: #bbb;
+    text-decoration: none;
+  }
+
 }
 
 /**
@@ -239,6 +252,23 @@ header {
         }
       }
     }
+  }
+
+  /**
+   * Link Styling
+   */
+
+  a {
+    color: #eee;
+  }
+
+  a:visited {
+    color: #eee;
+  }
+
+  a:hover {
+    color: #bbb;
+    text-decoration: none;
   }
 
 }
