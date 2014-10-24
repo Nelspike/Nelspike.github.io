@@ -17,15 +17,13 @@ layout: default
       <i class="fa fa-pencil"></i>
       Nelson Oliveira
     </div>
-    |
     <div class="post-date">
       <i class="fa fa-calendar"></i>
       {{ page.date | date: "%B %-d, %Y" }}
     </div>
-    |
     <div class="post-category">
       <i class="fa fa-database"></i>
-      {{ page.categories | join: "|" }}
+      {{ page.categories | join: "|" | capitalize }}
     </div>
   </div>
 </div>

@@ -238,8 +238,8 @@ header {
         width: 75%;
         padding-bottom: 15px;
         text-align: justify;
-        line-height: 25px;
-        font-size: 18px;
+        line-height: 2em;
+        font-size: 16px;
         border-bottom: 1px solid #ccc;
 
         @media screen and (max-width: $high-resolution-device) {
@@ -271,7 +271,7 @@ header {
     margin-bottom: 30px;
 
     h1 {
-      font-size: 38px;
+      font-size: 32px;
       font-weight: 400;
       letter-spacing: -1px;
       line-height: 1;
@@ -284,6 +284,8 @@ header {
   }
 
   .post-meta {
+    margin-top: 25px;
+    font-size: 14px;
     
     .post-author {
       display: inline-block;
@@ -291,10 +293,12 @@ header {
 
     .post-date {
       display: inline-block;
+      margin-left: 15px;
     }
 
     .post-category {
       display: inline-block;
+      margin-left: 15px;
     }
   }
 }
