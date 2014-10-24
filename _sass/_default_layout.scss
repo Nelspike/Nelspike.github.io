@@ -221,7 +221,7 @@ header {
     padding: 0px 50px 0px 50px;
 
     .post {
-      margin-top: 50px;
+      margin-top: 35px;
 
       .post-title {
         font-weight: 400;
@@ -254,20 +254,7 @@ header {
     }
   }
 
-  /**
-   * Link Styling
-   */
-
-  a {
-    color: #eee;
-  }
-
-  a:visited {
-    color: #eee;
-  }
-
   a:hover {
-    color: #bbb;
     text-decoration: none;
   }
 
@@ -276,28 +263,26 @@ header {
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
 
-.post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1;
-}
+.single-post {
+  padding: 50px;
 
-.post-content {
-  margin-bottom: $spacing-unit;
+  .post-title {
+    margin-bottom: 30px;
 
-  h2 {
-    font-size: 32px;
+    h1 {
+      font-size: 38px;
+      font-weight: 400;
+      letter-spacing: -1px;
+      line-height: 1;
+    }
   }
 
-  h3 {
-    font-size: 26px;
+  .post-date {
   }
 
-  h4 {
-    font-size: 20px;
+  .post-content {
+    width: 80%;
+    line-height: 2em;
   }
 }
