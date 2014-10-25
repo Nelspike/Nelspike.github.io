@@ -6,10 +6,9 @@ header {
   /**
    * Dimensions
    */
-  height: 50px;
+  height: $header-height;
   @include calc(width, "100% - 250px");
-  //width: 85%;
-
+  
   /**
    * Positioning
    */
@@ -20,59 +19,56 @@ header {
   /**
    * Colour Scheme
    */
-  background-color: #4477AA;
-  color: #ddd;
+  background-color: $header-background;
+  color: $assets-colour;
   
-  /**
-   * Responsive section
-   */
-  @media screen and (max-width: $high-resolution-device) {
-    width: 100%;
-  }
-
   /**
    * Child Nodes Styling
    */
-
   #category-listing {
     height: 100%;
-    font-size: 20px;
-
-    a:hover {
-      text-decoration: none;
-    }
+    font-size: $big-font-size;
 
     .category {
-      padding: 10px 20px 0px 20px;
-      height: 40px;
+      padding: $category-padding;
+      height: $category-height;
       display: inline-block;
-      font-weight: 200;
+      font-weight: $thin-font;
     }
 
     .category:hover {
-      background-color: #225485;
+      background-color: $sidebar-background;
       cursor: pointer;
-      color: #ddd;
+      color: $assets-colour;
     }
     
     .selected {
-      background-color: #225485;
-      color: #ddd;
+      background-color: $sidebar-background;
+      color: $assets-colour;
     }
   }
 
   /**
    * Link Styling
    */
-
   a {
-    color: #eee;
+    color: $assets-link-colour;
+
+    &:visited{
+      color: $assets-link-colour;
+    }
+
+    &:hover {
+      text-decoration: $nothing;
+    }
   }
 
-  a:visited {
-    color: #eee;
+  /**
+   * Responsive section
+   */
+  @include media-query($high-resolution-device) {
+    width: 100%;
   }
-
 }
 
 /**
@@ -84,7 +80,7 @@ header {
    * Dimensions
    */
   height: 100%;
-  width: 250px;
+  width: $sidebar-width;
 
   /**
    * Positioning
@@ -94,121 +90,68 @@ header {
   /**
    * Colour Scheme
    */
-  background-color: #225485;
-  color: #ddd;
-
-  /**
-   * Responsive section
-   */
-  @media screen and (max-width: $high-resolution-width) {
-    height: auto;
-  }
-
-  @media screen and (max-width: $low-resolution-width) {
-    height: 100%;
-  }
-
-  @media screen and (max-width: $high-resolution-device) {
-    display: none;
-    position: fixed;
-    width: 38%;
-  }
-  
-  @media screen and (max-width: $low-resolution-device) {
-    width: 50%;
-  }
-  
-  @media screen and (max-height: 768px) {
-    height: 100%;
-  }
+  background-color: $sidebar-background;
+  color: $assets-colour;
 
   /**
    * Child Nodes Styling
    */
-
   .sidebar-content {
-    width: 80%;
+    width: $sidebar-content-width;
   }
 
   .sidebar-text {
-    margin-left: 5%;
-    padding: 5%;
-    text-align: center;
+    margin-left: $sidebar-text-margin;
+    padding: $sidebar-text-margin;
+    text-align: $sidebar-text-alignment;
   }
 
   #photo {
-    margin-top: 15px;
-    margin-left: 10%;
+    margin-top: $photo-top-margin;
+    margin-left: $photo-left-margin;
 
-    @media screen and (max-height: 768px) {
-      width: 70%;
-      margin-left: 15%;
-    }
-    
     img {
-      border-radius: 100px;
+      border-radius: $photo-radius;
     }
   }
 
   #self-description {
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: $quote-top-margin;
+    font-size: $small-font-size;
 
     #quote {
-      text-align: left;
+      text-align: $quote-text-alignment;
     }
 
     #quoted {
-      text-align: right;
-      margin-top: 5px;
+      text-align: $quoted-text-alignment;
+      margin-top: $quoted-top-margin;
     }
   }
 
   #blog-description {
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: $sidebar-text-top-margin;
+    font-size: $big-font-size;
   }  
 
   #external-section {
-    margin-top: 20px;
+    margin-top: $sidebar-text-top-margin;
 
     #social-media {
       text-align: center;
 
-      #github:hover {
-        background-color: #000;
-      }
-
-      #twitter:hover {
-        background-color: #00ACED;
-      }
-
-      #email:hover {
-        background-color: #DD4B39;
-      }
+      @include assign-social-colours();
 
       #stack {
-        margin-top: 10px;
-      }
-
-      #stack:hover {
-        background-color: #F60;
-      }
-
-      #rss:hover {
-        background-color: #C55D10;
+        margin-top: $social-media-row-distance;
       }
 
       .social-container {
-        width: 50px;
-        font-size: 35px;
-        margin-left: 5px;
-        margin-right: 5px;
+        width: $social-container-width;
+        font-size: $huge-font-size;
+        margin-left: $social-container-margin;
+        margin-right: $social-container-margin;
         display: inline-block;
-
-        @media screen and (max-height: 768px) {
-          font-size: 30px;
-        }
       }
 
       .social-container:hover {
@@ -220,19 +163,55 @@ header {
   /**
    * Link Styling
    */
-
   a {
-    color: #eee;
+    color: $assets-colour;
+
+    &:visited {
+      color: $assets-link-colour;
+    }
+
+    &:hover {
+      text-decoration: $nothing;
+    }
   }
 
-  a:visited {
-    color: #eee;
+  /**
+   * Responsive section
+   */
+  @include media-query($high-resolution-width) {
+    height: auto;
   }
 
-  a:hover {
-    text-decoration: none;
+  @include media-query($low-resolution-width) {
+    height: 100%;
   }
 
+  @include media-query($high-resolution-device) {
+    display: $nothing;
+    position: fixed;
+    width: 38%;
+  }
+  
+  @include media-query($low-resolution-device) {
+    width: 50%;
+  }
+  
+  @include height-media-query($low-resolution-height) {
+    height: 100%;
+
+    #photo {
+      width: 70%;
+      margin-left: $small-margin;
+    }
+
+    #external-section {
+      #social-media {
+        .social-container {
+          font-size: $great-font-size;
+        }
+      }
+    }
+  }
 }
 
 /**
@@ -245,20 +224,18 @@ header {
    */
   @include calc(height, "100% - 50px");
   @include calc(width, "100% - 250px");
-  //width: 85%;
 
   /**
    * Positioning
    */
   position: absolute;
+  top: $content-distance-top;
   right: 0;
-  top: 50px;
-  //bottom: 0;
 
   /**
    * Colour Scheme
    */
-  color: #111;
+  color: $text-colour;
 
   /**
    * Responsive section
@@ -272,44 +249,44 @@ header {
    */
 
   #content-wrapper {
-    padding: 0px 50px 0px 50px;
+    padding: $wrapper-padding;
 
     .post {
-      margin-top: 35px;
+      margin-top: $post-distance-top;
 
       .post-title {
-        font-weight: 400;
-        font-size: 32px;
+        font-weight: $bold-font;
+        font-size: $post-title-font-size;
       }
 
       .post-date {
-        margin-bottom: 25px;
-        font-size: 14px;
-        color: #555;
+        margin-bottom: $post-date-distance-bottom;
+        font-size: $small-font-size;
+        color: $post-date-colour;
       }
 
       .post-truncate {
-        width: 75%;
-        padding-bottom: 15px;
-        text-align: justify;
-        line-height: 2em;
-        font-size: 16px;
-        border-bottom: 1px solid #ccc;
+        width: $post-content-width;
+        padding-bottom: $post-content-distance-bottom;
+        text-align: $post-content-text-align;
+        line-height: $post-content-line-height;
+        font-size: $normal-font-size;
+        border-bottom: $post-content-border;
 
-        @media screen and (max-width: $high-resolution-device) {
+        @include media-query($high-resolution-device) {
           width: 100%;
         }
 
         .read-more {
-          font-size: 16px;
-          text-align: right;
+          font-size: $normal-font-size;
+          text-align: $read-more-text-align;
         }
       }
     }
   }
 
   a:hover {
-    text-decoration: none;
+    text-decoration: $nothing;
   }
 
 }

@@ -1,0 +1,28 @@
+$base-font-size:   16px;
+$base-line-height: 1.5;
+$spacing-unit:     30px;
+$text-color:       #111;
+$background-color: #ddd;
+$brand-color:      #2a7ae2;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$high-resolution-width: 1366px;
+$low-resolution-width: 1280px;
+$low-resolution-height: 768px;
+$high-resolution-device: 768px;
+$med-resolution-device: 480px;
+$low-resolution-device: 320px;
+
+// Dimensions
+$content-dimension: 80%;
+
+// Positioning
+$tiny-margin: 5%;
+$minor-margin: 10%;
+$small-margin: 15%;
+
+// Displaying
+$nothing: none;
+$same-line: inline-block;

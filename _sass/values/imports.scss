@@ -1,0 +1,24 @@
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin height-media-query($device) {
+  @media screen and (max-height: $device) {
+    @content;
+  }
+}
+
+@mixin calc($property, $expression) { 
+  #{$property}: -webkit-calc(#{$expression}); 
+  #{$property}: calc(#{$expression}); 
+}
+
+@mixin assign-social-colours() {
+  @each $social,$colour in $social-media-colours {
+    #{$social}:hover {
+      background-color: $colour;
+    }
+  }
+}

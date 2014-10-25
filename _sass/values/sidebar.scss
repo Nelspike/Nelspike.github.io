@@ -1,0 +1,33 @@
+$sidebar-width: 250px;
+$sidebar-content-width: 80%;
+
+// Photo Container
+$photo-top-margin: 15px;
+$photo-left-margin: (100% - $sidebar-content-width) / 2;
+$photo-radius: 100px;
+
+// Sidebar Text Containers
+$sidebar-text-margin: $photo-left-margin / 2;
+$sidebar-text-alignment: center;
+$sidebar-text-top-margin: 20px;
+
+// Self-Description
+$quote-text-alignment: left;
+$quoted-text-alignment: right;
+$quote-top-margin: 10px;
+$quoted-top-margin: 5px;
+
+// Social Media Container
+$social-container-width: 50px;
+$social-container-margin: 5px;
+
+// Second Social Rows Onwards
+$social-media-row-distance: 10px;
+
+$social-media-colours: (
+  #github: #000,
+  #twitter: #00ACED,
+  #email: #DD4B39,
+  #stack: #F60,
+  #rss: #C55D10
+);
