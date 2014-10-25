@@ -160,12 +160,36 @@ header {
     #social-media {
       text-align: center;
 
+      #github:hover {
+        background-color: #000;
+      }
+
+      #twitter:hover {
+        background-color: #00ACED;
+      }
+
+      #email:hover {
+        background-color: #DD4B39;
+      }
+
+      #stack:hover {
+        background-color: #F60;
+      }
+
+      #rss:hover {
+        background-color: #C55D10;
+      }
+
       .social-container {
         width: 50px;
         font-size: 35px;
         margin-left: 5px;
         margin-right: 5px;
         display: inline-block;
+      }
+
+      .social-container:hover {
+        cursor: pointer;
       }
     }
   }
@@ -183,7 +207,6 @@ header {
   }
 
   a:hover {
-    color: #bbb;
     text-decoration: none;
   }
 
