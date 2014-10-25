@@ -120,12 +120,6 @@ header {
   
   @media screen and (max-height: 768px) {
     height: 100%;
-
-    #social-media {
-      .social-container {
-        font-size: 30px;
-      }
-    }
   }
 
   /**
@@ -202,6 +196,10 @@ header {
         margin-left: 5px;
         margin-right: 5px;
         display: inline-block;
+
+        @media screen and (max-height: 768px) {
+          font-size: 30px;
+        }
       }
 
       .social-container:hover {
