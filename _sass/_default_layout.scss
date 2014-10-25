@@ -47,6 +47,16 @@ header {
       display: inline-block;
       font-weight: 200;
     }
+
+    .category:hover {
+      background-color: #225485;
+      cursor: pointer;
+      color: #bbb;
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
     
     .selected {
       background-color: #225485;
@@ -65,10 +75,6 @@ header {
     color: #eee;
   }
 
-  a:hover {
-    color: #bbb;
-    text-decoration: none;
-  }
 }
 
 /**
