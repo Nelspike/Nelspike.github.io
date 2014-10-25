@@ -1,7 +1,7 @@
 <header>
   <div id="category-listing">
     {% for category in site.categories %}
-      <div class="category">
+    <div id="{{ category | first }}" class="category">
         <a href="{{ category | first | prepend: '/' }}">
           {{ category | first | capitalize }}
         </a>

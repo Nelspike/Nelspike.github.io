@@ -38,17 +38,19 @@ header {
    */
 
   #category-listing {
-    margin-top: 10px;
-    margin-left: 20px;
+    height: 100%;
     font-size: 20px;
-    font-weight: 500;
 
     .category {
+      padding: 10px 20px 0px 20px;
+      height: 40px;
       display: inline-block;
-      margin-right: 25px;
       font-weight: 200;
     }
     
+    .selected {
+      background-color: #225485;
+    }
   }
 
   /**
