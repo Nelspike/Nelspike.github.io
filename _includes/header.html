@@ -1,11 +1,11 @@
 <header>
   <div id="category-listing">
     {% for category in site.categories %}
-    <div id="{{ category | first }}" class="category">
-        <a href="{{ category | first | prepend: '/' }}">
+      <a href="{{ category | first | prepend: '/' }}">
+        <div id="{{ category | first }}" class="category">
           {{ category | first | capitalize }}
-        </a>
-      </div>
+        </div>
+      </a>
     {% endfor %}
   </div>
 </header>

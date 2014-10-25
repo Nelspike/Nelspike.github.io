@@ -4,7 +4,7 @@ var Category = (function() {
     var path = window.location.pathname;
     if (path != "/") {
       var categoryName = Utils.reject(path.split("/"), "")[0];
-      $("#"+categoryName).css("background-color", "#225485");
+      $("#"+categoryName).addClass("selected");
     }
   }
 

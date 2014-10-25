@@ -41,6 +41,10 @@ header {
     height: 100%;
     font-size: 20px;
 
+    a:hover {
+      text-decoration: none;
+    }
+
     .category {
       padding: 10px 20px 0px 20px;
       height: 40px;
@@ -51,15 +55,12 @@ header {
     .category:hover {
       background-color: #225485;
       cursor: pointer;
-      color: #bbb;
-
-      a:hover {
-        text-decoration: none;
-      }
+      color: #ddd;
     }
     
     .selected {
       background-color: #225485;
+      color: #ddd;
     }
   }
 
@@ -170,6 +171,10 @@ header {
 
       #email:hover {
         background-color: #DD4B39;
+      }
+
+      #stack {
+        margin-top: 10px;
       }
 
       #stack:hover {
