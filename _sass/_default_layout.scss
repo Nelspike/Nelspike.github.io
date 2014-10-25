@@ -268,6 +268,7 @@ header {
 
 .single-post {
   padding: 50px;
+  width: 80%;
 
   .post-title {
     margin-bottom: 30px;
@@ -281,24 +282,25 @@ header {
   }
 
   .post-content {
-    width: 80%;
     line-height: 2em;
   }
 
   .post-meta {
+    text-align: right;
     margin-top: 25px;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 400;
+   
+    .meta-info {
+      display: inline-block;
+      margin-left: 5px;
+    }
     
     .post-author {
       display: inline-block;
     }
 
     .post-date {
-      display: inline-block;
-      margin-left: 15px;
-    }
-
-    .post-category {
       display: inline-block;
       margin-left: 15px;
     }
