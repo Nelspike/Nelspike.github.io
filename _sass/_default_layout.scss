@@ -153,6 +153,15 @@ header {
   #self-description {
     margin-top: 10px;
     font-size: 14px;
+
+    #quote {
+      text-align: left;
+    }
+
+    #quoted {
+      text-align: right;
+      margin-top: 5px;
+    }
   }
 
   #blog-description {
