@@ -312,12 +312,20 @@ header {
   }
 
   .post-content {
+    text-align: justify;
     line-height: 2em;
+
+    .post-picture {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
   }
 
   .post-meta {
     text-align: right;
     margin-top: 25px;
+    margin-bottom: 30px;
     font-size: 15px;
     font-weight: 400;
    
