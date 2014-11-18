@@ -13,5 +13,4 @@ poster: Nelson Oliveira
 
 # Build settings
 markdown: kramdown
-pygments: false
-highlighter: null
+highlighter: pygments
