@@ -11,3 +11,16 @@ The objective of this blog is pretty simple. I'll be posting about the most vari
 Subscribe to my RSS feed by clicking the RSS button to your left, and stay tuned!
 
 Over and out, returning 0!
+
+<!--{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
+-->

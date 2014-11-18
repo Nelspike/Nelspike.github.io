@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Icy Fire!"
+date:   2014-11-18 17:00:00
+categories: Games
+---
+Over the course of the past week, I have been thinking what to do to actually practice some coding skills outside of work, so it finally came to me: <i>Why not build a game?</i>
+
+How did I get over to this decision? I wanted to build something that comes across my own tastes, something that I can actually identify myself with when it comes to programming or creating something. Some weeks ago, I heard about the [Global Day of Code Retreat][http://www.meetup.com/Software-Craftsmanship-Berlin/events/214334892/], and learned it was actually happening in Berlin. Quite honestly? <i>I felt it was a good idea.</i> Turns out it was! Gave me the hype and motivation to start coding something!
+
+The whole Code Retreat based itself on creating [Conway's Game of Life][http://en.wikipedia.org/wiki/Conway's_Game_of_Life], while <i>Pair Programming</i> with someone random while using the principles of <i>Test Driven Development</i>, in iterations of 45 minutes each. At the end of each iteration, all of the code would be erased (that's right!). With each iteration, new challenges would arise, such as building the program with no conditionals (<i>if</i>s, <i>for</i>s, <i>while</i>s, etc.) or even doing a hard reset on a created <b>git</b> repository in case you couldn't make a unit test pass within 2 minutes (sick, dude!). Since the whole thing was based itself on a game, and considering I've been eager to become a Game Developer at some point in the future.. I might as well start getting my hands dirty and build something useful.
+
+So, what's the catch?
+
+## Fire 'n Ice is!
+
+While doing a quick search on the Internet, I found this really cool game called <i>Fire 'n Ice</i>, for the NES. The game was developed by <b>Tecmo</b> and released back in 1993. The game is consisted by small puzzles the player must complete. The objective of these puzzles is quite simple: There are blocks of ice, and there are little flames. Each flame must be put out, and to do so, you must place a block of ice on top of the flame. Simple, right? Of course it is! Until the puzzles start complicating.. \*ahem!\*
+
+<div style="text-align: center;">
+  <img src="http://img.gamefaqs.net/screens/2/6/9/gfs_39559_2_3.jpg" width="600px">
+</div>
+
+See the picture above? Quite the nice game! But the major question now stays evident: <i>How will I build this game? What will I do? What will I code on?</i> I've given a couple of thoughts on it. Since one of my objectives was getting better at C++ in general, I'll roll with that. Turns out there is a really cool Open Source Framework for 2D Game Development in C++ called <i>Allegro</i>. I had contact with Allegro in the past, since I went through [Mike Geig's Tutorials][http://fixbyproximity.com/2d-game-development-course/] (cheers Mike, amazing tutorials!). So, with both of these, all I am missing is an IDE and Media material (sprites and sounds). As for the IDE, I will give it a go with Visual Studio. As for the rest.. I will let time tell.
+
+With the course of development, I wil keep the blog updated with my experiences while programming the game, as well as some useful C++ tips (in case I feel like there are some cool tweaks to post).
+
+Nel is over and out, returning 0!
