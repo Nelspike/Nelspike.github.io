@@ -8,7 +8,7 @@ header {
    */
   height: $header-height;
   @include calc(width, "100% - 250px");
-  
+
   /**
    * Positioning
    */
@@ -21,7 +21,7 @@ header {
    */
   background-color: $header-background;
   color: $assets-colour;
-  
+
   /**
    * Child Nodes Styling
    */
@@ -41,7 +41,7 @@ header {
       cursor: pointer;
       color: $assets-colour;
     }
-    
+
     .selected {
       background-color: $sidebar-background;
       color: $assets-colour;
@@ -68,6 +68,10 @@ header {
    */
   @include media-query($high-resolution-device) {
     width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
 
@@ -132,7 +136,7 @@ header {
   #blog-description {
     margin-top: $sidebar-text-top-margin;
     font-size: $big-font-size;
-  }  
+  }
 
   #external-section {
     margin-top: $sidebar-text-top-margin;
@@ -191,11 +195,11 @@ header {
     position: fixed;
     width: 38%;
   }
-  
+
   @include media-query($low-resolution-device) {
     width: 50%;
   }
-  
+
   @include height-media-query($low-resolution-height) {
     height: 100%;
 
@@ -243,7 +247,7 @@ header {
   @media screen and (max-width: $high-resolution-device) {
     width: 100%;
   }
-  
+
   /**
    * Child Node Styling
    */
@@ -322,7 +326,7 @@ header {
 
      span {
        display: block;
-       font-size: 13px; 
+       font-size: 13px;
      }
 
     }
@@ -334,12 +338,12 @@ header {
     margin-bottom: 30px;
     font-size: 15px;
     font-weight: 400;
-   
+
     .meta-info {
       display: inline-block;
       margin-left: 5px;
     }
-    
+
     .post-author {
       display: inline-block;
     }
