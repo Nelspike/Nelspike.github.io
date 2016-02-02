@@ -114,6 +114,36 @@ header {
     margin-top: $photo-top-margin;
     margin-left: $photo-left-margin;
 
+    perspective: 1000;
+
+    &:hover .flipper{
+      transform: rotateY(180deg);
+    }
+
+    .flipper {
+      transition: 0.6s;
+      transform-style: preserve-3d;
+
+      position: relative;
+    }
+
+    .front, .back {
+      backface-visibility: hidden;
+
+      top: 0;
+      left: 0;
+    }
+
+    .front {
+      z-index: 2;
+      transform: rotateY(0deg);
+    }
+
+    .back {
+      margin-top: -200px;
+      transform: rotateY(180deg);
+    }
+
     img {
       border-radius: $photo-radius;
     }
@@ -206,6 +236,10 @@ header {
     #photo {
       width: 70%;
       margin-left: $small-margin;
+
+      .back {
+        margin-top: -175px;
+      }
     }
 
     #external-section {
