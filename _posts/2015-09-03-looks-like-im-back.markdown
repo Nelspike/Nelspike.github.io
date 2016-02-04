@@ -2,7 +2,7 @@
 layout: post
 title:  "Looks like I'm back!"
 date:   2015-09-03 09:15:00
-categories: Announcements
+categories: announcements
 ---
 
 Once again, I delayed like a ton on bring you guys some more content on this amazingly designed blog. I seriously have to compensate for that.

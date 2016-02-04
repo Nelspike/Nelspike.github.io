@@ -2,7 +2,7 @@
 layout: post
 title:  "25 - The hope of a Magic Number"
 date:   2016-01-26 18:30
-categories: Announcements
+categories: announcements
 ---
 
 Yeah, so it seems. I’ve hit the age of 25. Quarter of a century. The fourth of a hundred. Twenty plus five.

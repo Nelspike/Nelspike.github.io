@@ -2,7 +2,7 @@
 layout: post
 title:  "It is alive!"
 date:   2014-10-26 00:47:00
-categories: Announcements
+categories: announcements
 ---
 Hello fellow followers! I am proud to announce that, as of the 26th October of the year 2014, I have just completed my blog construction! Exciting, isn't it?
 

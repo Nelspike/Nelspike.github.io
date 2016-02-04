@@ -2,7 +2,7 @@
 layout: post
 title:  "Sweet, sweet Hiatus!"
 date:   2015-09-04 23:45
-categories: Misc
+categories: misc
 ---
 
 Hiatuses can be sweet, but they can also be.. "sweet". I'm not really sure what to say about this one in particular. Maybe <i>bittersweet</i>. Maybe <i>amazing</i>. I have no damn clue.

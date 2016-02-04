@@ -2,7 +2,7 @@
 layout: post
 title:  "Passion Rekindled"
 date:   2015-02-18 13:00:00
-categories: Literature
+categories: literature
 ---
 It's been a while since the last post, and I haven't been really writing any updates towards Icy Fire or the blog. But fear not - <i>I have been boosting my knowledge.</i>
 
