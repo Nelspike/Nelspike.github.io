@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "25 - The hope of a Magic Number"
-date:   2016-01-26 18:30
+date:   2016-01-25 18:30
 categories: announcements
 ---
 
