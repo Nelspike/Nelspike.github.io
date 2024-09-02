@@ -12,14 +12,14 @@ Yes, you read it right. YouTube. That thing that a lot of people use for enterta
 
 ## But Nel, what will you actually do with your channel?
 
-Putting it simply, I'll just post videos of me playing video games. That's it! Or well... Maybe a small twist: I'll post videos of me playing _retro_ video games! The definition of what a retro game is is pretty subjective, so I'll try to narrow it down, or at least, to what I will consider a retro game for the channel: **Anything that's 20 or more years old**. And I won't look at genre either, just post videos!
+Putting it simply, I'll just post videos of me playing video games. That's it! Or well... Maybe a small twist: I'll post videos of me playing _retro_ video games! The definition of what a retro game is is pretty subjective, so I'll try to narrow it down, or at least, to what I will consider a retro game for the channel: *Anything that's 20 or more years old*. And I won't look at genre either, just post videos!
 
 ## Wait... Why?
 
 A better question would be: "why not"? Nah, just kidding. I've recently been to Japan _twice_ in the last two years, and seeing how there were dedicated stores to retro gaming, retro arcades and a general love and care for all things electronic, it made me think twice about a couple of things:
 
 - What kinds of things do I like doing in my free time?
-- What exactly are my hobbies, do I have anything I feel this passaionate about?
+- What exactly are my hobbies, do I have anything I feel this passionate about?
 - I've been talking about playing and cherishing retro games, why haven't I done anything in that regard?
 - What's stopping me from just... Doing it?
 
@@ -47,7 +47,7 @@ I've already posted three videos ever since, where I played the Mega Drive versi
 And to conclude, I just want to say a couple of things:
 
 - I'll try my best to keep the common YouTube phrases such as "Like and Subscribe!" or "Please like the content of our channel, it helps us a lot!". Not because I'm not looking for those, but I want to keep the videos as lean as possible and just focus on what I'm doing.
-- The channel's language is English, but first and foremost, I am Portuguese. I expect one or two videos down the line to be in Portuguese, esepcially if I'm playing games with other people (I have some ideas)!
+- The channel's language is English, but first and foremost, I am Portuguese. I expect one or two videos down the line to be in Portuguese, especially if I'm playing games with other people (I have some ideas)!
 - And lastly, I want people to have fun!
 
 So yeah, please give me channel a look, and while I will not ask people to subscribe _during_ a video, I will do so here on this blog post: If you've come this far, do subscribe and give my videos a watch once in a while, even if in the background! I want to share these moments with all of you!
