@@ -14,7 +14,7 @@ Looking away from the emotional perspective, I was able to grasp some of the sen
 
 But Software Craftsmanship isn't what this whole book is about. Sure, it also reflects Software as our main focus, but it also relates it to other areas, and other fields of expertise. The author of the book cliamed to be a Musician before becoming a Software Developer - this gave him a greater insight to compare both fields, and it turns out the differences weren't that big. Most of the techniques you can use for other fields can also be applied to Software Craftsmanship. The greatest approach to improve your career, and the one that dazzled me completely, was the social affirmation aspect. Personally, that was something that I never thought of doing, since I always considered Social Contact to be my weakest point as a person - seems like it still is! The motivation behind this blog was exactly that very same one, trying to show who I am to the world, show people what I am capable of doing within the context of my expertise. Since my hopes and motivation are high in the clouds at the moment, I am safe to quote a portuguese expression:
 
-##<center><i>Quem não arrisca, não petisca.</i></center>
+## <center><i>Quem não arrisca, não petisca.</i></center>
 
 Without the social aspect, and your own personal projection, you won't be able to show what you're capable of doing. In other words, after reading this book, my career's objective passed from not only trying to excel at Software Development, but as well as becoming an expert on how to sell my skills and capabilities, by the means of <i>Marketing</i>. Marketing is still a fuzzy area for me, but it will slowly get there.
 
