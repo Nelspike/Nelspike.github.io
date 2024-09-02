@@ -29,15 +29,20 @@ And with that, I suddenly had a lot of other questions and answers, things just 
 
 Thought you'd never ask! I already linked it above in case you weren't paying attention, but here it is:
 
-### <center>https://www.youtube.com/@Nelspike</center>
+<div class="post-picture">
+  <a href="https://www.youtube.com/@Nelspike">
+    <img src="/assets/images/youtube-thumbnail.png" title="@Nelspike" height="190px">
+  </a>
+</div>
 
-I've already posted three videos ever since, where I played the Mega Drive version of the first [Puyo Puyo](https://youtu.be/iMRnSc3rw0c) split in two parts, as well as Super Famicom's very own [Soul Blader](https://youtu.be/rgX9k28z5I8) with its very first part out. Super pumped to get even more content out!
+I've already posted three videos ever since, where I played the Mega Drive version of the first [Puyo Puyo](https://youtu.be/iMRnSc3rw0c) split in two parts, as well as Super Famicom's very own [Soul Blader](https://youtu.be/rgX9k28z5I8) with its very first part out. Super pumped to get even more content out! Check my latest video as of today:
 
 <div class="post-picture">
   <a href="https://youtu.be/rgX9k28z5I8">
-  <img src="https://img.youtube.com/vi/rgX9k28z5I8/maxresdefault.jpg" alt="Soul Blader (ソウルブレイダー) - スーパーファミコン [Part 1]" width="400px">
+    <img src="https://img.youtube.com/vi/rgX9k28z5I8/maxresdefault.jpg" title="Soul Blader (ソウルブレイダー) - スーパーファミコン [Part 1]" width="400px">
   </a>
 </div>
+<center>Soul Blader (ソウルブレイダー) - スーパーファミコン [Part 1]</center>
 
 And to conclude, I just want to say a couple of things:
 
