@@ -41,8 +41,8 @@ I've already posted three videos ever since, where I played the Mega Drive versi
   <a href="https://youtu.be/rgX9k28z5I8">
     <img src="https://img.youtube.com/vi/rgX9k28z5I8/maxresdefault.jpg" title="Soul Blader (ソウルブレイダー) - スーパーファミコン [Part 1]" width="400px">
   </a>
+  <center>Soul Blader (ソウルブレイダー) - スーパーファミコン [Part 1]</center>
 </div>
-<center>Soul Blader (ソウルブレイダー) - スーパーファミコン [Part 1]</center>
 
 And to conclude, I just want to say a couple of things:
 
