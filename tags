@@ -83,10 +83,10 @@ back	_sass/_default_layout.scss	/^      .back {$/;"	c
 back	_sass/_default_layout.scss	/^    .back {$/;"	c
 back	_sass/_default_layout.scss	/^    .front, .back {$/;"	c
 background-color	_sass/values/basics.scss	/^$background-color: #ddd;$/;"	v
-base-font-family	_sass/values/font.scss	/^$base-font-family: 'Open Sans', sans-serif;$/;"	v
+base-font-family	_sass/values/font.scss	/^$base-font-family: 'Crimson Pro', sans-serif;$/;"	v
 base-font-size	_sass/values/basics.scss	/^$base-font-size:   16px;$/;"	v
 base-line-height	_sass/values/basics.scss	/^$base-line-height: 1.5;$/;"	v
-big-font-size	_sass/values/font.scss	/^$big-font-size: 20px;$/;"	v
+big-font-size	_sass/values/font.scss	/^$big-font-size: 21px;$/;"	v
 blog-description	_includes/sidebar.html	/^  <div id="blog-description" class="sidebar-content sidebar-text">$/;"	I
 blog-description	_sass/_default_layout.scss	/^  #blog-description {$/;"	i
 bold-font	_sass/values/font.scss	/^$bold-font: 400;$/;"	v
@@ -139,7 +139,7 @@ github	_sass/values/sidebar.scss	/^  #github: #000,$/;"	v
 go	_sass/_syntax-highlighting.scss	/^  .go    { color: #888 } \/\/ Generic.Output$/;"	c
 gp	_sass/_syntax-highlighting.scss	/^  .gp    { color: #555 } \/\/ Generic.Prompt$/;"	c
 gr	_sass/_syntax-highlighting.scss	/^  .gr    { color: #a00 } \/\/ Generic.Error$/;"	c
-great-font-size	_sass/values/font.scss	/^$great-font-size: 30px;$/;"	v
+great-font-size	_sass/values/font.scss	/^$great-font-size: 31px;$/;"	v
 grey-color	_sass/values/basics.scss	/^$grey-color:       #828282;$/;"	v
 grey-color-dark	_sass/values/basics.scss	/^$grey-color-dark:  darken($grey-color, 25%);$/;"	v
 grey-color-light	_sass/values/basics.scss	/^$grey-color-light: lighten($grey-color, 40%);$/;"	v
@@ -152,7 +152,7 @@ height-media-query	_sass/values/imports.scss	/^@mixin height-media-query($device
 high-resolution-device	_sass/values/basics.scss	/^$high-resolution-device: 768px;$/;"	v
 high-resolution-width	_sass/values/basics.scss	/^$high-resolution-width: 1366px;$/;"	v
 highlight	_sass/_syntax-highlighting.scss	/^.highlight {$/;"	c
-huge-font-size	_sass/values/font.scss	/^$huge-font-size: 35px;$/;"	v
+huge-font-size	_sass/values/font.scss	/^$huge-font-size: 36px;$/;"	v
 icon	_sass/_base.scss	/^.icon {$/;"	c
 il	_sass/_syntax-highlighting.scss	/^  .il    { color: #099 } \/\/ Literal.Number.Integer.Long$/;"	c
 k	_sass/_syntax-highlighting.scss	/^  .k     { font-weight: bold } \/\/ Keyword$/;"	c
@@ -184,7 +184,7 @@ ni	_sass/_syntax-highlighting.scss	/^  .ni    { color: #800080 } \/\/ Name.Entit
 nn	_sass/_syntax-highlighting.scss	/^  .nn    { color: #555 } \/\/ Name.Namespace$/;"	c
 no	_sass/_syntax-highlighting.scss	/^  .no    { color: #008080 } \/\/ Name.Constant$/;"	c
 normal-font	_sass/values/font.scss	/^$normal-font: 300;$/;"	v
-normal-font-size	_sass/values/font.scss	/^$normal-font-size: 16px;$/;"	v
+normal-font-size	_sass/values/font.scss	/^$normal-font-size: 17px;$/;"	v
 nothing	_sass/values/basics.scss	/^$nothing: none;$/;"	v
 nt	_sass/_syntax-highlighting.scss	/^  .nt    { color: #000080 } \/\/ Name.Tag$/;"	c
 nv	_sass/_syntax-highlighting.scss	/^  .nv    { color: #008080 } \/\/ Name.Variable$/;"	c
@@ -220,7 +220,7 @@ post-meta	_sass/_default_layout.scss	/^  .post-meta {$/;"	c
 post-picture	_sass/_default_layout.scss	/^    .post-picture {$/;"	c
 post-title	_sass/_default_layout.scss	/^      .post-title {$/;"	c
 post-title	_sass/_default_layout.scss	/^  .post-title {$/;"	c
-post-title-font-size	_sass/values/font.scss	/^$post-title-font-size: 32px;$/;"	v
+post-title-font-size	_sass/values/font.scss	/^$post-title-font-size: 34px;$/;"	v
 post-truncate	_sass/_default_layout.scss	/^      .post-truncate {$/;"	c
 property	_sass/values/imports.scss	/^@mixin calc($property, $expression) { $/;"	z
 quote	_includes/sidebar.html	/^    <div id="quote"><i>{{ site.quote }}<\/i><\/div>$/;"	I
@@ -259,7 +259,7 @@ sidebar-text-margin	_sass/values/sidebar.scss	/^$sidebar-text-margin: $photo-lef
 sidebar-text-top-margin	_sass/values/sidebar.scss	/^$sidebar-text-top-margin: 20px;$/;"	v
 sidebar-width	_sass/values/sidebar.scss	/^$sidebar-width: 250px;$/;"	v
 single-post	_sass/_default_layout.scss	/^.single-post {$/;"	c
-small-font-size	_sass/values/font.scss	/^$small-font-size: 14px;$/;"	v
+small-font-size	_sass/values/font.scss	/^$small-font-size: 15px;$/;"	v
 small-margin	_sass/values/basics.scss	/^$small-margin: 15%;$/;"	v
 social-container	_sass/_default_layout.scss	/^        .social-container {$/;"	c
 social-container	_sass/_default_layout.scss	/^      .social-container {$/;"	c

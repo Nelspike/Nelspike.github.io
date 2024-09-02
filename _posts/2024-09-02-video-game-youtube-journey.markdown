@@ -33,7 +33,7 @@ Thought you'd never ask! I already linked it above in case you weren't paying at
 
 I've already posted three videos ever since, where I played the Mega Drive version of the first [Puyo Puyo](https://youtu.be/iMRnSc3rw0c) split in two parts, as well as Super Famicom's very own [Soul Blader](https://youtu.be/rgX9k28z5I8) with its very first part out. Super pumped to get even more content out!
 
-<center>[![Soul Blader (ソウルブレイダー) - スーパーファミコン [Part 1]](https://img.youtube.com/vi/rgX9k28z5I8/maxresdefault.jpg)](https://youtu.be/rgX9k28z5I8 "Soul Blader (ソウルブレイダー) - スーパーファミコン [Part 1]")</center>
+<center>[![Soul Blader (ソウルブレイダー) - スーパーファミコン \[Part 1\]](https://img.youtube.com/vi/rgX9k28z5I8/default.jpg)](https://youtu.be/rgX9k28z5I8 "Soul Blader (ソウルブレイダー) - スーパーファミコン [Part 1]")</center>
 
 And to conclude, I just want to say a couple of things:
 
